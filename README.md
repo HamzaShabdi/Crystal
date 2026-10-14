@@ -129,3 +129,4 @@ See the included reference documents for complete details:
 - `04_AUTH_FLOW.md` — Authentication & Authorization Roadmap
 - `05_SECURITY_PLAN.md` — STRIDE Threat Model & Security Controls
 - `06_IMPLEMENTATION_PLAN.md` — Milestones & Work Breakdown
+This open source and you have to add your own api key
