@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FloodOne — Flood Response Intelligence</title>
+    <meta name="description" content="Turn Sentinel-1 radar change signals into an explainable rescue-priority queue: identify cut-off communities and critical road failures." />
+    <meta name="theme-color" content="#0F1A24" />
+
+    <!-- Google Fonts: Space Grotesk, Inter, IBM Plex Mono -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- MapLibre GL CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" />
+  </head>
+  <body class="bg-bg text-paper font-sans antialiased overflow-hidden select-none">
+    <div id="root" class="h-screen w-screen flex flex-col"></div>
+    <script type="module" src="/client/src/main.tsx"></script>
+  </body>
+</html>

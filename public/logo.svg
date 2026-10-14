@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <!-- Dark badge background -->
+  <rect width="48" height="48" rx="10" fill="#16242F" stroke="#22D3EE" stroke-width="1.5" stroke-opacity="0.3"/>
+  <!-- F-shaped river channels (Glacier Cyan) -->
+  <path d="M12 10V38" stroke="#22D3EE" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M12 13H36" stroke="#22D3EE" stroke-width="4.5" stroke-linecap="round"/>
+  <path d="M12 24H28" stroke="#22D3EE" stroke-width="4.5" stroke-linecap="round"/>
+  <!-- Bridge cross-lines (Amber/Signal representing transit corridor across flood) -->
+  <line x1="22" y1="9" x2="22" y2="17" stroke="#F5A524" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="26" y1="9" x2="26" y2="17" stroke="#F5A524" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="18" y1="20" x2="18" y2="28" stroke="#F5A524" stroke-width="2.5" stroke-linecap="round"/>
+  <circle cx="36" cy="13" r="2.5" fill="#E5484D" />
+</svg>
