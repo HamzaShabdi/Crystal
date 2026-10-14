@@ -50,14 +50,9 @@ export function setCartoApiKey(key: string): void {
   }
 }
 
-export function getCartoTileUrls(style: CartoBasemapStyleId = 'dark_all'): string[] {
-  const apiKey = getCartoApiKey();
-  const subdomains = ['a', 'b', 'c', 'd'];
-  return subdomains.map(
-    (sub) =>
-      `https://${sub}.basemaps.cartocdn.com/rastertiles/${style}/{z}/{x}/{y}@2x.png?api_key=${apiKey}`
-  );
-}
+   export function getCartoTileUrls(_style: CartoBasemapStyleId = 'dark_all'): string[] {
+     return ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'];
+   }
 
 export const CARTO_ATTRIBUTION =
   '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noreferrer">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions" target="_blank" rel="noreferrer">CARTO</a>';
